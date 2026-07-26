@@ -6,6 +6,8 @@ body {
     padding: 0;
     font-family: Roboto;
 }
+/* Header Container */
+
 .header_container { 
     display: flex;
     /* outline: 2px solid red; */
@@ -72,4 +74,43 @@ h1 {
 .link { 
     color: #F9FAF8;
 
+}
+/* Info Section */
+
+.info_container { 
+    display: flex;
+    justify-content: center;
+    /* outline: 2px solid red; */
+    padding-bottom: 60px;
+}
+.info_container_wrapper { 
+    display: flex;
+    flex-direction: column;
+    /* outline: 2px solid violet; */
+    width: 100%;
+    max-width: 1000px;
+    align-items: center;
+    gap: 30px;
+}
+.info_cards { 
+    display: flex;
+    gap: 52px;
+    flex-wrap: wrap;
+}
+.card_box { 
+    /* outline: 2px black; */
+    width: 100%;
+    aspect-ratio: 1;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    
+} 
+.card { 
+    max-width: 150px;
+}
+.info_title { 
+    margin-top: 16px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
