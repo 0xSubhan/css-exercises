@@ -70,6 +70,7 @@ h1 {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    border: 2px solid white;
 }
 .link { 
     color: #F9FAF8;
@@ -145,10 +146,56 @@ h1 {
     font-style: italic;
 }
 
+/* Alert Container */
+
+.alert_container { 
+    display: flex;
+    justify-content: center;
+    /* outline: 2px solid red; */
+    padding: 80px;
+
+}
+.alert_container_wrapper { 
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    /* outline: 2px solid black; */
+    justify-content: space-between;
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 52px;
+}
+.alert_side_one { 
+    display: flex;
+    flex-direction: column;
+}
+h3 { 
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 32px;
+}
+.alert_side_one { 
+    color: white;
+}
 
 
+/* Footer Container */
 
+.footer { 
+    /* outline: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+    background-color: #1F2937;
 
+}
+h4 { 
+    margin: 0;
+    padding: 0;
+    color: white;
+}
 
 
 
